@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,27 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+h1, p {
+  text-align: center;
+}
+
+#divtoStyle {
+  height: 500px;
+  width: 500px;
+  border: 1px solid blue;
+  margin: auto;
+  text-align: center;
+  background-color: lightblue;
+}
+
+input {
+  margin-top: 250px;
+  border-radius: 5px;
+  border: 3px solid red;
+  height: 2em;
+  width: 200px;
 }
 
 .containers {
