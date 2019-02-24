@@ -77,7 +77,7 @@ input {
   line-height: 200%;
 }
 
-/*.cal th:first-child {
+.cal th:first-child {
   color: #f00;
 }
 
@@ -85,7 +85,7 @@ input {
   color: #04d;
 }
 
-.cal td {
+/*.cal td {
   padding: 0 2px;
   line-height: 100%;
 }
