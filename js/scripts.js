@@ -6,3 +6,12 @@ var navigate = (function() {
 		$('.' + dataName).toggle();
 	});
 })();
+
+function addStyle(){
+let inputVal = document.getElementById("borderVal").value + "px";
+  if(inputVal == "px") {
+    inputVal = "0px";
+  }
+console.log(inputVal);
+document.getElementById("divtoStyle").style.borderRadius = inputVal;
+}
